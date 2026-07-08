@@ -1,0 +1,481 @@
+
+---PAGE BREAK---
+A. Deskripsi Lomba
+Lomba Web Development merupakan kompetisi yang berfokus pada
+pengembangan website sebagai solusi digital yang efektif, inovatif, dan
+berorientasi 
+pada 
+kebutuhan 
+pengguna. 
+Peserta 
+diharapkan 
+mampu
+menghasilkan website yang memiliki performa baik, tampilan antarmuka yang
+menarik, serta pengalaman pengguna (user experience) yang optimal. Karya
+yang dikembangkan harus mampu memberikan kemudahan, kenyamanan, dan
+nilai manfaat bagi pengguna dalam menyelesaikan suatu permasalahan melalui
+pemanfaatan teknologi berbasis web. Melalui kompetisi ini, peserta didorong
+untuk menuangkan ide-ide kreatif dan inovatif ke dalam bentuk website yang
+tidak hanya fungsional, tetapi juga relevan dengan kebutuhan masyarakat
+maupun perkembangan teknologi di masa mendatang.
+B. Tema
+“Bridging the Gap: Digital Platforms for Equitable Economic Access”
+Berfokus pada pengembangan platform web yang secara langsung memperluas
+akses masyarakat terutama kelompok rentan seperti pekerja informal, pelaku
+UMKM, dan masyarakat di daerah terpencil terhadap peluang kerja layak,
+layanan keuangan, dan ekosistem ekonomi digital. Solusi yang dibangun
+diharapkan mampu mengurangi kesenjangan akses antara kelompok
+masyarakat yang berbeda secara ekonomi maupun geografis, serta mendorong
+pertumbuhan ekonomi yang inklusif melalui teknologi web.
+
+---PAGE BREAK---
+Sub Tema (hanya boleh pilih satu bebas):
+1.Informal Job Portal & Local Network Service
+Pengembangan platform web penyedia lowongan kerja & jaringan jasa
+lokal yang dikhususkan untuk sektor informal (seperti buruh harian, asisten
+rumah tangga, montir panggilan atau freelance lokal). Platform harus
+mampu mempermudah mereka mendapatkan pekerjaan yang aman,
+transparan, serta memiliki standarisasi upah yang adil.
+2.Micro-Capital Crowdfunding & Financial Management 
+Pengembangan 
+platform 
+web 
+manajemen 
+keuangan 
+mikro 
+atau
+penggalangan modal kolektif berbasis komunitas yang ramah pengguna,
+aman, dan ringan diakses oleh kelompok rentan atau masyarakat di daerah
+terpencil (unbanked population). 
+3.Rural Commerce & Supply Chain
+Pengembangan platform web jual-beli (marketplace B2B/B2C) atau
+manajemen rantai pasok yang berfokus mendigitalisasi pelaku UMKM,
+petani, peternak, atau pengrajin di daerah pelosok. Solusi yang dibangun
+harus mampu memotong jalur distribusi tengkulak agar produsen lokal bisa
+terhubung langsung ke pasar yang lebih luas dengan harga yang adil.
+
+---PAGE BREAK---
+C. Ketentuan Peserta
+Peserta wajib mendaftar melalui situs resmi VeternityBeraksi 2026. :
+https://veternityberaksi.com
+Peserta wajib mengikuti akun Instagram resmi @veternity.verse dan
+@beraksi.siupnyk dan mengunggah twibbon yang telah disediakan
+panitia.
+Peserta merupakan mahasiswa aktif D1–D4/S1 dari perguruan tinggi negeri
+maupun swasta di seluruh Indonesia, dibuktikan dengan KTM atau Kartu
+Pelajar.
+Setiap peserta bisa mendaftar sebagai individu atau dalam tim (maksimal 3
+anggota) dari universitas yang sama. Peserta hanya bisa terdaftar di satu
+tim.
+Setiap tim atau individu hanya bisa mengirimkan satu karya.
+Biaya pendaftaran: Batch 1 Rp60.000 / Batch 2 Rp80.000 per tim —
+tidak ada refund setelah pembayaran.
+Nama tim dan karya dilarang mengandung unsur SARA, pornografi, atau
+kekerasan.
+Finalis wajib hadir secara daring saat presentasi dan tidak dapat
+diwakilkan.
+Peserta wajib menjaga sportivitas dan etika selama kompetisi berlangsung.
+Panitia tidak bertanggung jawab atas kendala teknis di pihak peserta.
+Panitia berhak mendiskualifikasi peserta yang terbukti curang atau
+melanggar ketentuan.
+Panitia berhak mengubah peraturan dengan pemberitahuan melalui kanal
+resmi.
+Keputusan juri dan panitia bersifat mutlak dan tidak dapat diganggu gugat.
+Peserta yang tidak memenuhi persyaratan akan dinyatakan gugur.
+
+---PAGE BREAK---
+D. Ketentuan Lomba
+Lomba ini terdiri dari dua tahap, yaitu Babak Penyisihan (seleksi draf
+proposal, tautan website, dan repositori GitHub) serta Babak Final
+(presentasi karya secara daring via Zoom Meeting). 
+Setiap proposal maupun karya yang diajukan wajib mematuhi peraturan
+perundang-undangan yang berlaku, menjaga ketertiban umum, menjunjung
+norma kesusilaan, serta tidak mengandung unsur SARA.
+Setiap peserta hanya diperbolehkan mengajukan satu proposal atau karya
+yang merupakan hasil ide orisinal dari peserta yang belum pernah
+dipublikasikan sebelumnya serta belum pernah diikutsertakan dalam
+perlombaan sejenis.
+Karya yang dibuat wajib relevan dengan tema besar Veternity Beraksi 2026
+dan hanya boleh memilih satu sub tema. 
+Peserta dilarang keras melakukan plagiarisme dan wajib mencantumkan
+sumber atau lisensi yang jelas jika menggunakan aset pihak ketiga. 
+Dewan juri memiliki hak untuk membatalkan kemenangan peserta apabila
+ditemukan indikasi adanya plagiarisme dalam karya yang dikumpulkan.
+Keputusan panitia dan dewan juri bersifat final, mengikat, dan tidak dapat
+diganggu gugat oleh pihak mana pun.
+Kegiatan
+Tanggal Pelaksanaan
+Pendaftaran Gelombang 1
+5 - 13 Juli 2026
+Pendaftaran Gelombang 2
+14 - 31 Juli 2026
+E. Timeline 
+
+---PAGE BREAK---
+Penjurian Tahap 1
+1 - 8 Agustus 2026
+Pengumuman Finalis
+10 Agustus 2026
+Technical Meeting
+11 Agustus 2026
+Final (Presentasi Finalis)
+19 Agustus 2026
+Pengumuman Pemenang
+25 Agustus 2026
+F. Teknis Lomba
+1.Teknis Babak Penyisihan
+Ketentuan dan petunjuk penulisan proposal serta pengumpulan karya:
+a. Aturan Format Proposal:
+1.Ukuran kertas: A4, maksimal 13 halaman (tidak termasuk halaman
+sampul dan lampiran).
+2.Tata letak (Margin): Atas 4 cm, Kiri 4 cm, Bawah 3 cm, Kanan 3 cm
+(Format standard 4-4-3-3).
+3.Huruf: Times New Roman, ukuran 12pt, dengan spasi 1,5.  
+4.Bahasa: Menggunakan Bahasa Indonesia yang baik dan benar sesuai
+EYD.  
+b. Struktur Isi Proposal Wajib:
+1.Judul Karya & Nama Tim  
+2.Latar Belakang Masalah (Analisis kesenjangan ekonomi/geografis
+sesuai tema)  
+3.Solusi, Tujuan, dan Manfaat Aplikasi
+4.Ruang Lingkup & Batasan Aplikasi
+
+---PAGE BREAK---
+5.Teknologi yang Digunakan (Tech Stack backend, frontend, database)
+6.Fitur Utama & Nilai Keunikan Aplikasi 
+7.Arsitektur Sistem & Use Case Diagram
+8.Desain Antarmuka (Mockup / Screenshot UI)  
+c. Mekanisme Pengumpulan Karya:
+1.Peserta wajib mengunggah berkas administrasi dan karya secara
+sekaligus melalui platform resmi pendaftaran Veternity Beraksi 2026.
+Berkas yang wajib dikumpulkan meliputi:
+a.File 
+Proposal: 
+Format 
+PDF 
+dengan 
+nama 
+file
+VB2026_WebDev_NamaTim.pdf.
+b.Tautan Website: URL aktif hasil deploy/hosting yang dapat diakses
+publik.
+c.Tautan Repositori GitHub: URL repositori kode sumber (source
+code) dengan akses publik selama masa penjurian. 
+d.Lembar 
+Pernyataan 
+Orisinalitas 
+(LPO): 
+File 
+PDF 
+(hasil
+pemindaian/keperluan scan) dari draf LPO resmi yang telah diisi
+lengkap dan ditandatangani di atas meterai Rp10.000 oleh seluruh
+anggota tim.
+e.Bukti Unggah Twibbon: Tangkapan layar (screenshot) bukti bahwa
+setiap anggota tim telah mengunggah Twibbon menggunakan
+ketentuan caption resmi di akun Instagram masing-masing
+(pastikan akun tidak dikunci/diprivat).
+2.Seluruh aset draf dokumen LPO, gambar bingkai Twibbon, serta draf
+teks caption Instagram dapat diakses dan diunduh oleh peserta melalui
+tautan 
+resmi 
+panitia 
+berikut:
+https://drive.google.com/drive/folders/1hDXN11IOHyzWAbzXx7ggU
+X_JHeCA4V5J?usp=sharing
+
+---PAGE BREAK---
+3.Sebanyak 5 tim dengan akumulasi nilai tertinggi pada babak
+penyisihan ini dinyatakan lolos sebagai finalis.
+2.Teknis Lomba Final
+1.Tim finalis yang terpilih wajib menghadiri sesi Technical Meeting
+(TM) secara daring sesuai jadwal resmi.
+2.Urutan presentasi ditentukan secara acak dan diumumkan saat
+technical meeting; panitia akan memanggil tim sesuai giliran.
+3.Babak final dilaksanakan dalam bentuk Presentasi Karya dan Live
+Demo Website di depan dewan juri melalui media Zoom Meeting.
+4.Peserta diharapkan hadir tepat waktu dalam ruang virtual dan menjaga
+ketertiban, mematikan mikrofon saat giliran lain presentasi.
+5.Peserta wajib berpakaian rapi dan sopan meski mengikuti lomba dari
+lokasi masing-masing.
+6.Setiap tim diberikan alokasi waktu maksimal 10 menit untuk presentasi
+dan 10 menit untuk sesi tanya jawab (Q&A) bersama dewan juri.
+7.Penilaian akhir pada babak ini murni mutlak berdasarkan performa
+final dan akan menentukan perolehan Juara 1, 2, dan 3.
+
+---PAGE BREAK---
+G. Kriteria Penilaian
+1.Babak Penyisihan
+Aspek Penilaian
+Deskripsi
+Bobot
+Orisinalitas Karya 
+-Keaslian 
+ide, 
+konsep, 
+dan
+fungsionalitas utama dari website yang
+dibangun.
+-Karya 
+yang 
+dikembangkan 
+belum
+pernah menang di kompetisi lain dan
+bebas dari unsur plagiarisme (bukan
+sekadar clone proyek yang sudah ada di
+internet).
+20%
+Relevansi Tema &
+Inovasi Solusi 
+-Menilai seberapa tajam website dalam
+menyelesaikan 
+masalah 
+kesenjangan
+ekonomi/geografis sesuai subtema yang
+dipilih.
+-Efektivitas 
+solusi 
+digital 
+yang
+ditawarkan dalam memberikan nilai
+manfaat nyata bagi kelompok rentan.
+25%
+Kualitas UI/UX &
+Aksesibilitas
+-Kemudahan navigasi, estetika visual,
+dan konsistensi komponen antarmuka
+(user interface).
+-Inklusivitas Desain: Kemudahan akses
+website 
+bagi 
+masyarakat 
+awam
+teknologi 
+atau 
+daerah 
+terpencil
+(aksesibilitas).
+20%
+
+---PAGE BREAK---
+Aspek Penilaian
+Deskripsi
+Bobot
+Arsitektur Teknis
+& Kualitas Kode
+-Kelayakan dan jalan atau tidaknya
+fungsi-fungsi utama pada website. 
+-Kerapian penulisan kode (clean code),
+struktur basis data, responsivitas web
+(mobile/desktop), 
+serta 
+optimasi
+performa web.
+20%
+Format & Struktur
+Proposal
+-Kepatuhan terhadap susunan draf dan
+tata cara penulisan proposal yang telah
+ditentukan oleh panitia.
+-Kejelasan skenario penggunaan web
+(use case), arsitektur sistem, dan tata
+bahasa yang digunakan.
+15%
+2.Babak Final
+Aspek Penilaian
+Deskripsi
+Bobot
+Keberhasilan
+Implementasi &
+Fitur
+Menilai stabilitas fungsionalitas utama
+website saat diuji secara langsung (live
+demo). Fitur wajib berjalan lancar, bebas
+dari bug fatal, dan sesuai dengan solusi
+yang dijanjikan di proposal.
+25%
+
+---PAGE BREAK---
+Aspek Penilaian
+Deskripsi
+Bobot
+Keamanan &
+Manajemen Data
+Menilai keamanan aplikasi (misal:
+validasi 
+data, 
+proteksi
+rute/autentikasi), efisiensi manajemen
+state/basis 
+data, 
+serta 
+kesiapan
+arsitektur 
+kode 
+untuk 
+menangani
+lonjakan skala pengguna secara nyata.
+25%
+Sesi Tanya Jawab
+(Q&A) &
+Penguasaan Teknis
+Menilai 
+kemampuan 
+tim 
+dalam
+menjawab pertanyaan juri secara logis
+dan 
+kritis, 
+serta 
+kedalaman
+pemahaman terhadap kode sumber
+(source code) dan arsitektur teknologi
+yang digunakan
+25%
+Validitas Inovasi &
+Proyeksi Dampak
+Menilai kekuatan argumen tim terkait
+urgensi inovasi yang ditawarkan,
+konsistensi antara ide dengan produk
+akhir, serta kelogisan estimasi dampak
+terhadap 
+penyelesaian 
+masalah
+ekonomi.
+15%
+Kualitas
+Penyampaian &
+Presentasi
+Menilai 
+kelancaran 
+penyampaian
+materi, kekompakan/pembagian kerja
+tim, estetika slide presentasi (PPT),
+serta ketepatan manajemen waktu (10
+menit presentasi, 10 menit tanya
+jawab).
+10%
+
+---PAGE BREAK---
+Aspek Penilaian
+Deskripsi
+Bobot
+Babak Penyisihan
+Keseluruhan 
+nilai 
+dari 
+babak
+penyisihan.
+40%
+Babak Final
+Keseluruhan nilai dari babak final.
+60%
+TOTAL
+100%
+3.Nilai Akhir
+
+---PAGE BREAK---
+Frequently Asked Question (FAQ)
+Ketentuan Peserta dan Tim
+Q : Apakah kompetisi ini harus berkelompok atau boleh diikuti secara
+individu? 
+A: Kompetisi ini dapat diikuti secara perseorangan (individu) maupun
+berkelompok dengan jumlah anggota maksimal 3 (tiga) orang. 
+Q : Apakah anggota tim diperbolehkan berasal dari program studi atau fakultas
+yang berbeda?
+A: Anggota tim diperbolehkan berbeda program studi atau fakultas selama
+masih dalam satu perguruan tinggi yang sama. Kompetisi ini mewajibkan
+peserta berada dalam satu tim yang sama dari perguruan tinggi yang sama
+(tidak boleh lintas kampus).
+Q : Apa saja syarat sosial media yang harus dipenuhi peserta dan di mana kami
+bisa mengambil asetnya?
+A:  Peserta wajib mengikuti (follow) akun Instagram resmi @veternity.verse
+dan @beraksi.siupnyk, serta mengunggah Twibbon resmi menggunakan
+caption yang telah ditentukan. Seluruh aset Twibbon, teks caption, beserta
+template dokumen LPO.docx wajib diunduh melalui tautan resmi Klik disini
+dan dikumpulkan dalam bentuk bukti fisik pada saat pengisian formulir babak
+penyisihan.
+
+---PAGE BREAK---
+Q : Jika salah satu anggota tim mendadak berhalangan hadir saat Babak Final,
+apakah tim kami akan langsung didiskualifikasi?
+A: Tim tidak akan didiskualifikasi selama minimal ada 1 orang perwakilan
+anggota tim yang hadir untuk melakukan presentasi dan live demo. Namun,
+kekompakan dan pembagian kerja tim merupakan salah satu poin penilaian juri
+di babak final, sehingga ketidakhadiran anggota dapat memengaruhi nilai akhir
+aspek presentasi.
+Pengembangan Karya
+Q : Apakah boleh memilih lebih dari satu sub-tema untuk satu karya?
+A: Tidak boleh. Peserta dibebaskan memilih sub-tema yang tersedia, namun
+hanya diperbolehkan memilih satu sub-tema saja untuk karya yang diajukan.
+Q : Apakah satu tim boleh mengirimkan lebih dari satu karya/website?
+A: Tidak boleh. Setiap tim hanya diperbolehkan mengirimkan satu karya
+terbaiknya.
+Q : Apakah ada batasan penggunaan teknologi tertentu dalam pembuatan
+website?
+A: Tidak ada batasan khusus. Peserta dibebaskan menggunakan pustaka
+(library), kerangka kerja (framework), database, atau layanan backend-as-a-
+service apa pun selama kode sumber ditulis sendiri secara orisinal dan bukan
+hasil clone proyek lain.
+
+---PAGE BREAK---
+Q : Apakah boleh menggunakan template website yang sudah ada di internet?
+A: Karya harus mengutamakan orisinalitas konsep dan fungsionalitas utama.
+Karya dilarang keras berupa hasil plagiarisme atau sekadar melakukan clone
+proyek yang sudah ada di internet.
+Q : Apakah website yang dikumpulkan harus benar-benar sudah fungsional
+(bisa berjalan) atau boleh berupa prototype / mockup saja?
+A: Website yang dikumpulkan pada babak penyisihan wajib berupa website
+aktif yang sudah di-deploy/hosting dan fungsi-fungsi utamanya dapat berjalan
+dengan baik (bukan sekadar desain/tampilan). Mockup atau desain antarmuka
+hanya diletakkan di dalam dokumen proposal sebagai pelengkap penjelasan.
+Lain-Lain
+Q : Kapan pemenang Web Development Competition Veternity Beraksi 2026
+akan diumumkan?
+A: Pengumuman pemenang (Juara 1, 2, dan 3) akan dilaksanakan secara resmi
+pada tanggal 25 Agustus 2026 melalui kanal media sosial resmi Veternity
+Beraksi 2026.
+Q : Jika tim atau individu kami batal mengikuti lomba, apakah biaya
+pendaftaran bisa dikembalikan?
+A: Tidak bisa. Sesuai dengan peraturan ketentuan peserta, tidak ada
+pengembalian dana (no refund) setelah proses pembayaran dilakukan.
+
+---PAGE BREAK---
+Q : Jika terjadi kendala jaringan atau perangkat di sisi peserta saat presentasi
+final, apakah panitia akan memberikan kompensasi waktu?
+A: Tidak. Panitia secara tegas menyatakan tidak bertanggung jawab atas
+kendala 
+teknis 
+yang 
+terjadi 
+di 
+pihak 
+peserta. 
+Peserta 
+diharapkan
+mempersiapkan perangkat dan koneksi internet sebaik mungkin sebelum babak
+final dimulai.
+Q : Apakah ada toleransi keterlambatan jika kami mengumpulkan proposal atau
+link website lewat beberapa menit dari tenggat waktu?
+A: Tidak ada toleransi keterlambatan. Sistem pengumpulan akan otomatis
+ditutup tepat pada waktu yang telah ditentukan pada timeline kompetisi. Panitia
+berhak menyatakan tim gugur jika tidak memenuhi persyaratan tenggat waktu
+tersebut. 
+Q : Jika proposal kami melebihi batas maksimal 13 halaman, apakah akan
+langsung didiskualifikasi?
+A: Batas maksimal proposal adalah 13 halaman (tidak termasuk halaman
+sampul dan lampiran). Tim yang mengumpulkan proposal melebihi batas
+tersebut tidak akan langsung didiskualifikasi, namun akan mendapatkan
+pengurangan poin yang signifikan pada aspek penilaian Format & Struktur
+Proposal.
+
+---PAGE BREAK---
+Contact Person
+Adnan
+Hammam
+0858-0037-1886
+0882-0066-98091
+atnandimas@gmail.com
+satriaanjasmara04@gmail.com
+
+---PAGE BREAK---

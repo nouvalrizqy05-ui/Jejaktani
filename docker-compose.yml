@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: jejaktani-backend
+    restart: always
+    env_file:
+      - ./backend/.env
+    volumes:
+      # Mount the data directory so SQLite database is persistent across restarts
+      - sqlite_data:/app/data
+    networks:
+      - jejaktani_net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: jejaktani-frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - jejaktani_net
+
+volumes:
+  sqlite_data:
+    name: jejaktani_sqlite_data
+
+networks:
+  jejaktani_net:
+    name: jejaktani_network
+    driver: bridge

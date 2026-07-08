@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jejak Tani &mdash; Setiap Panen Punya Jejak</title>
+    <meta name="description" content="Jejak Tani menghubungkan petani dan UMKM pelosok langsung ke pembeli, dengan harga transparan dan jejak digital setiap produk." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230d9488'/%3E%3Ccircle cx='50' cy='55' r='20' fill='%234ade80'/%3E%3C/svg%3E" />
+    <!--
+      PERBAIKAN: sebelumnya src di sini di-hardcode ke
+      https://app.midtrans.com/snap/snap.js -- itu domain PRODUCTION.
+      Kalau backend jalan di Sandbox (lihat MIDTRANS_IS_PRODUCTION=false di
+      backend/.env), widget Snap dari domain Production TIDAK AKAN COCOK
+      dengan Snap Token dari server Sandbox -- pembayaran akan gagal atau
+      berperilaku tidak terduga. Sekarang URL penuh dikontrol lewat env var
+      supaya frontend dan backend selalu satu environment yang sama.
+      Untuk testing/demo juri: gunakan https://app.sandbox.midtrans.com/snap/snap.js
+      Untuk Production (SETELAH disetujui bank): https://app.midtrans.com/snap/snap.js
+    -->
+    <script src="%VITE_MIDTRANS_SNAP_URL%" data-client-key="%VITE_MIDTRANS_CLIENT_KEY%"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

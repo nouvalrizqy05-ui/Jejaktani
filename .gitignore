@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+
+# Build output
+frontend/dist/
+frontend/build/
+backend/dist/
+backend/build/
+
+# Node.js portable binaries (Windows workaround)
+backend/node-v22*/
+backend/node22.zip
+
+# SQLite Database & generated QR Codes
+# (Untuk kompetisi bisa saja disertakan, namun best practice adalah ignore)
+# backend/data/jejaktani.db
+backend/data/qrcodes/
+
+# macOS / Windows OS files
+.DS_Store
+Thumbs.db
+
+# File mentahan / project referensi tidak relevan
+panen-cerdas-main (3).zip
+panen-cerdas-main/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

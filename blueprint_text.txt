@@ -1,0 +1,609 @@
+JEJAK TANI
+“Setiap Panen Punya Jejak, Setiap Petani Punya Harga Adil”
+Blueprint Perancangan Platform Digital
+Rural Commerce & Supply Chain — Subtema 3
+Disusun untuk Lomba Web Development
+Tema: “Bridging the Gap: Digital Platforms for Equitable Economic Access”
+Veternity Beraksi — FKBMIK UPN & BERAKSI SIUPNYK
+Dokumen Rancangan Teknis & Bisnis (Blueprint)
+Juli 2026
+
+---PAGE BREAK---
+Daftar Isi
+4
+1. Identitas Platform
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+1.1 Nama & Tagline
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+1.2 Filosofi Nama
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+1.3 Palet Warna & Makna
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+1.4 Positioning Statement
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+1.5 Target Pengguna
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+1.6 Kesesuaian dengan Tema Besar Lomba
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+1.7 Kesesuaian dengan Subtema 3
+6
+2. Latar Belakang & Analisis Masalah
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 6
+2.1 Masalah Rantai Distribusi Tengkulak
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 6
+2.2 Pelajaran dari Kegagalan Platform Sejenis
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 6
+2.3 Studi Banding Singkat
+7
+3. Arsitektur Platform
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7
+3.1 Lapisan Kanal Akses
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7
+3.2 Lapisan Modul Inti Platform
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 8
+3.3 Lapisan Ekosistem Mitra Eksternal
+9
+4. Modul Fitur Inti
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
+4.1 Marketplace B2B & B2C
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
+4.2 Manajemen Gudang & Armada
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
+4.3 Traceability Rantai Pasok
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
+4.4 Mesin Harga & Data Pasar
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
+4.5 Trust & Reputasi
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
+4.6 Onboarding & CRM Petani/UMKM
+10
+5. Alur Pengguna (Flowchart)
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 3
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 10
+5.1 Alur Petani End-to-End
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 10
+5.2 Alur Pembeli B2C
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 11
+5.3 Alur Pembeli B2B
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12
+5.4 Alur Agen Lapangan
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 13
+5.5 Alur Traceability Produk
+15
+6. Skema Data (Entity Relationship Diagram)
+17
+7. Model Bisnis & Sumber Pendapatan
+18
+8. Roadmap Pengembangan
+19
+9. Matriks Risiko & Mitigasi
+20
+10. Struktur Tim yang Dibutuhkan
+21
+11. Ringkasan Aktor & Use Case
+22
+12. Kesesuaian dengan Kriteria Penilaian Lomba
+23
+13. Kepatuhan terhadap Subtema 3
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 23
+13.1 Definisi Subtema 3 (dari Brief Lomba)
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 23
+13.2 Fitur yang Termasuk (Sesuai Subtema 3)
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 23
+13.3 Fitur yang Sengaja Dihindari (Domain Subtema 2)
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 23
+13.4 Catatan tentang Pembayaran dalam Transaksi
+24
+14. Penutup
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 4
+1. Identitas Platform
+1.1 Nama & Tagline
+Nama platform: Jejak Tani
+Tagline: “Setiap Panen Punya Jejak, Setiap Petani Punya Harga Adil”
+1.2 Filosofi Nama
+Nama Jejak Tani dipilih untuk merepresentasikan dua hal sekaligus. Kata “Jejak” merujuk pada fitur
+pembeda utama platform ini, yaitu traceability rantai pasok berbasis QR code, yang belum menjadi fitur utama
+di kompetitor eksisting seperti TaniHub maupun Eratani. Kata “Tani” menegaskan fokus platform pada petani
+dan pelaku UMKM di daerah pelosok sebagai penerima manfaat utama. Nama ini sengaja dibuat singkat,
+mudah diucapkan, dan tidak menyerupai nama kompetitor yang sudah ada.
+1.3 Palet Warna & Makna
+Warna
+Makna & Penggunaan
+Teal (#0D9488)
+Kepercayaan, teknologi, traceability — warna utama brand
+Hijau (#16A34A)
+Pertumbuhan, kesuburan, pertanian — warna pendukung petani/produksi
+Amber (#D97706)
+Kehangatan, perdagangan, energi — warna aksen transaksi/logistik
+Abu Gelap (#1F2937)
+Profesionalitas — warna teks utama
+1.4 Positioning Statement
+Jejak Tani adalah platform rural commerce dan manajemen rantai pasok yang menghubungkan petani dan
+pelaku UMKM di daerah pelosok langsung ke pembeli B2B maupun B2C, memangkas jalur distribusi
+tengkulak berlapis, dan menjamin harga yang adil melalui transparansi data pasar serta jejak digital setiap
+produk dari ladang hingga ke tangan pembeli.
+1.5 Target Pengguna
+•
+Petani & kelompok tani/UMKM di daerah pelosok dengan akses pasar dan teknologi yang terbatas
+•
+Pembeli B2C — rumah tangga yang ingin bahan pangan segar dengan harga transparan
+•
+Pembeli B2B — restoran, hotel, katering, ritel, dan industri pengolahan yang butuh pasokan rutin
+•
+Agen lapangan & koordinator wilayah sebagai jembatan onboarding non-digital
+1.6 Kesesuaian dengan Tema Besar Lomba
+Tema besar lomba, “Bridging the Gap: Digital Platforms for Equitable Economic Access”, menuntut solusi
+yang memperluas akses ekonomi bagi kelompok rentan secara geografis maupun ekonomi. Jejak Tani
+menjawab ini secara langsung: petani pelosok yang selama ini hanya bisa menjual ke tengkulak lokal dengan
+harga sepihak, kini terhubung langsung ke pasar B2B/B2C yang lebih luas, dengan harga yang dibentuk
+secara transparan dan adil.
+1.7 Kesesuaian dengan Subtema 3
+Seluruh fitur dalam blueprint ini — marketplace, manajemen gudang & armada, traceability, mesin harga,
+trust & reputasi, dan onboarding — murni berada pada domain Rural Commerce & Supply Chain. Tidak ada
+satu pun fitur yang menyentuh manajemen keuangan mikro, crowdfunding, atau pembiayaan (domain
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 5
+Subtema 2), sebagaimana dirinci pada Bagian 13 dokumen ini.
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 6
+2. Latar Belakang & Analisis Masalah
+2.1 Masalah Rantai Distribusi Tengkulak
+Di banyak daerah pelosok Indonesia, petani dan pelaku UMKM masih bergantung pada rantai tengkulak
+berlapis untuk menjual hasil produksinya. Setiap simpul dalam rantai ini menambah margin harga tanpa
+transparansi, sehingga petani sering menerima harga jauh di bawah harga pasar yang sebenarnya,
+sementara konsumen akhir tetap membayar mahal.
+Gambar 2.1 — Perbandingan rantai distribusi tradisional dan platform Jejak Tani
+2.2 Pelajaran dari Kegagalan Platform Sejenis
+TaniHub Group, salah satu pionir agritech Indonesia, menjadi studi kasus penting. Anak usahanya, TaniFund,
+mencatat tingkat kredit macet 63,93% sehingga izin usahanya dicabut OJK pada Mei 2024. Sebelumnya, PT
+Tani Hub Indonesia juga telah dimohonkan PKPU oleh krediturnya pada Desember 2022, dan pada 2025
+muncul kasus dugaan korupsi terkait pengelolaan dana investasi senilai US$25 juta. Akar masalahnya: terlalu
+banyak lini bisnis sekaligus (marketplace, logistik, dan lembaga pembiayaan), serta perlakuan pembiayaan
+pertanian yang berisiko tinggi layaknya pinjaman konsumtif biasa.
+Jejak Tani dirancang untuk tidak mengulangi kesalahan ini dengan cara paling langsung: tidak menyentuh
+sama sekali domain pembiayaan. Fokus sepenuhnya pada marketplace dan rantai pasok membuat
+platform ini juga otomatis sesuai dengan batasan satu subtema yang ditetapkan panitia lomba.
+2.3 Studi Banding Singkat
+Dimensi
+TaniHub
+Eratani
+Jejak Tani
+Cakupan bisnis
+Marketplace + logistik +
+fintech dalam satu entitas
+Financing + input +
+offtake terintegrasi
+Marketplace + rantai pasok murni, tanpa
+pembiayaan
+Transparansi harga
+Harga ditentukan sepihak
+oleh platform
+Data-driven dengan
+pendampingan
+agronomis
+Harga referensi pasar publik ditampilkan
+sebelum transaksi
+Akses
+non-smartphone
+Terbatas, app-first
+App-first dengan
+pendampingan
+agronomis lapangan
+Agen desa + WhatsApp/SMS setara dengan
+aplikasi
+Diferensiasi utama
+Menjadi 100% offtaker
+hasil panen
+Offtake terikat
+pembiayaan &
+pendampingan
+Traceability QR end-to-end dari ladang ke
+pembeli
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 7
+3. Arsitektur Platform
+Arsitektur Jejak Tani disusun dalam tiga lapis agar setiap komponen memiliki tanggung jawab yang jelas dan
+dapat dikembangkan secara independen: lapisan kanal akses, lapisan modul inti platform, dan lapisan
+ekosistem mitra eksternal.
+Gambar 3.1 — Arsitektur tiga lapis platform Jejak Tani
+3.1 Lapisan Kanal Akses
+Menyediakan berbagai cara masuk ke platform sesuai profil pengguna: aplikasi mobile (Android & iOS) dan
+web untuk pengguna melek digital, kanal WhatsApp/SMS untuk petani tanpa smartphone canggih, serta agen
+lapangan sebagai jembatan onboarding sepenuhnya offline.
+3.2 Lapisan Modul Inti Platform
+Berisi enam modul fungsional utama — Marketplace, Gudang & Armada, Traceability, Mesin Harga, Trust &
+Reputasi, dan Onboarding CRM — yang dijelaskan secara rinci pada Bagian 4.
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 8
+3.3 Lapisan Ekosistem Mitra Eksternal
+Mendelegasikan fungsi-fungsi yang membutuhkan lisensi atau keahlian khusus ke mitra eksternal: ekspedisi
+untuk armada tambahan, pemerintah (Kementan/Bulog) sebagai mitra permintaan dan standar mutu,
+lembaga sertifikasi untuk verifikasi organik/GAP, dan mitra ritel/ekspor untuk perluasan saluran distribusi.
+Perhatikan bahwa lapisan ini tidak lagi menyertakan mitra pembiayaan — keputusan desain yang secara
+eksplisit menjaga platform tetap murni Subtema 3.
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 9
+4. Modul Fitur Inti
+Bagian ini merinci fungsionalitas dari keenam modul inti platform. Seluruh fitur di bawah ini murni domain
+perdagangan dan rantai pasok — tidak ada fitur pinjaman, investasi, atau pengelolaan keuangan
+pribadi/bisnis.
+4.1 Marketplace B2B & B2C
+•
+Katalog produk dengan grade kualitas eksplisit (Grade A/B/C hasil QC)
+•
+Mode B2C: keranjang belanja, checkout, QRIS/VA/e-wallet/COD area tertentu
+•
+Mode B2B: RFQ (request for quotation), kontrak volume tetap, harga bertingkat sesuai kuantitas
+•
+Preorder untuk komoditas musiman dengan harga terkunci di depan
+•
+Sinkronisasi stok multi-gudang secara real-time
+4.2 Manajemen Gudang & Armada
+•
+Titik agregasi di level desa/kecamatan untuk menekan biaya logistik pelosok
+•
+Warehouse Management System (WMS) dengan skema FIFO/FEFO dan kapasitas real-time
+•
+Optimasi rute pengiriman (vehicle routing) untuk armada multi-moda: motor, truk, kapal untuk pulau
+•
+Cold chain monitoring untuk komoditas mudah rusak
+•
+API terbuka ke ekspedisi pihak ketiga untuk area yang belum dijangkau armada sendiri
+4.3 Traceability Rantai Pasok
+•
+QR code unik digenerate otomatis untuk setiap batch produk saat panen
+•
+Pencatatan status di setiap tahap: panen, grading, masuk gudang, pengiriman
+•
+Buyer dapat memindai QR code untuk melihat riwayat lengkap produk secara transparan
+•
+Sertifikasi digital (organik, GAP, dsb.) melekat pada profil produk
+4.4 Mesin Harga & Data Pasar
+•
+Harga referensi harian ditarik dari sumber publik (Panel Harga Pangan Nasional, PIHPS Bank Indonesia)
+•
+Dashboard transparansi harga yang wajib dilihat petani sebelum memutuskan menjual
+•
+Notifikasi tren harga naik/turun untuk komoditas yang dipantau
+•
+Prediksi harga sederhana berbasis musim (fase pengembangan lanjut)
+4.5 Trust & Reputasi
+•
+Skor kepercayaan dua arah: petani dinilai pembeli, pembeli dinilai petani
+•
+Riwayat transaksi transparan dan dapat diaudit kedua pihak
+•
+Sertifikasi digital tersimpan di profil produsen
+•
+Alur resolusi sengketa yang terstruktur
+4.6 Onboarding & CRM Petani/UMKM
+•
+Profil digital: polygon lahan via GPS, riwayat tanam, dokumen kependudukan
+•
+Input data offline oleh agen lapangan, sinkron otomatis saat sinyal tersedia
+•
+Modul edukasi singkat (video, bahasa daerah) terintegrasi di kanal WhatsApp
+•
+Kelompok tani/koperasi dikelola sebagai satu unit akun
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 10
+5. Alur Pengguna (Flowchart)
+Bagian ini menjabarkan alur penggunaan platform dari lima sudut pandang aktor utama: petani, pembeli B2C,
+pembeli B2B, agen lapangan, dan alur traceability produk.
+5.1 Alur Petani End-to-End
+Gambar 5.1 — Alur petani dari pendaftaran hingga penjualan
+Petani mendaftar dan melengkapi profil digital, lalu merencanakan produksi berdasarkan komitmen beli yang
+sudah diagregasi lebih dulu oleh platform — sehingga produksi bersifat demand-driven, bukan spekulatif.
+Setelah panen, produk melalui proses grading otomatis dan dicatat dalam sistem traceability saat masuk
+gudang. Penjualan diselesaikan dengan pembayaran langsung dari buyer ke petani melalui platform, tanpa
+mekanisme pembiayaan atau bagi hasil apa pun.
+5.2 Alur Pembeli B2C
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 11
+Gambar 5.2 — Alur pembeli rumah tangga (B2C)
+Pembeli B2C mendaftar, memilih area pengiriman, menjelajahi katalog, menambahkan produk ke keranjang,
+lalu checkout dengan metode pembayaran pilihan. Pesanan dikirim dengan opsi same-day (untuk pesanan
+sebelum jam 11 pagi) atau pengiriman tanpa kontak.
+5.3 Alur Pembeli B2B
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 12
+Gambar 5.3 — Alur pembeli bisnis dengan kontrak berulang
+Pembeli B2B (restoran, hotel, ritel) mendaftar dengan verifikasi legalitas usaha, membuat kontrak pasokan
+berulang dengan jadwal dan volume rutin, mengonfirmasi harga yang terkunci sesuai kontrak, menerima
+pengiriman terjadwal, dan menyelesaikan pembayaran melalui invoice dengan termin tempo — praktik
+dagang standar untuk transaksi B2B, bukan produk keuangan.
+5.4 Alur Agen Lapangan
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 13
+Gambar 5.4 — Alur onboarding oleh agen lapangan
+Agen lapangan mengunjungi desa untuk sosialisasi, menginput data petani secara offline, menyinkronkan
+data begitu sinyal tersedia, lalu tim operasional memverifikasi dan mengaktifkan akun sebelum petani
+melakukan transaksi pertamanya.
+5.5 Alur Traceability Produk
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 14
+Gambar 5.5 — Alur traceability dari ladang ke pembeli
+Ini adalah fitur pembeda utama Jejak Tani. Data panen diinput petani, QR code digenerate otomatis dan
+melekat pada kemasan produk, status produk diperbarui di setiap tahap rantai pasok, buyer dapat memindai
+QR code untuk melihat riwayat lengkap produk, dan hasilnya berupa rating & feedback yang memperkuat
+skor reputasi petani.
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 15
+6. Skema Data (Entity Relationship Diagram)
+Skema data inti dirancang tanpa satu pun entitas yang berkaitan dengan pembiayaan. Entitas
+TRACEABILITY_LOG dan ARMADA menggantikan slot yang sebelumnya akan diisi entitas kredit/mitra
+danai, sekaligus memperkuat domain rantai pasok.
+Gambar 6.1 — Skema data inti platform Jejak Tani
+Entitas
+Deskripsi
+PETANI
+Data identitas dan kontak petani/pelaku UMKM
+LAHAN
+Data lahan milik petani: luas, lokasi GPS, komoditas
+PRODUK
+Hasil panen per batch, termasuk grade dan kode QR
+TRACEABILITY_LOG
+Catatan riwayat status produk di setiap tahap rantai pasok
+BUYER
+Data pembeli, baik B2C maupun B2B
+PESANAN
+Transaksi antara produk dan buyer
+GUDANG
+Data lokasi dan kapasitas titik penyimpanan
+ARMADA
+Data kendaraan/armada pengiriman
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 16
+Entitas
+Deskripsi
+PENGIRIMAN
+Detail proses distribusi dari gudang ke buyer
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 17
+7. Model Bisnis & Sumber Pendapatan
+Pendapatan platform sengaja dibuat beragam sejak awal dan sepenuhnya berasal dari aktivitas
+perdagangan/rantai pasok, tanpa satu pun yang berasal dari bunga pinjaman atau instrumen keuangan.
+Sumber Pendapatan
+Deskripsi
+Dibayar oleh
+Fee transaksi marketplace
+2-5% dari setiap transaksi B2B/B2C
+Buyer atau petani
+Fee logistik
+Margin tipis di atas biaya riil pengiriman/agregasi
+Buyer/petani
+Fee verifikasi sertifikasi &
+traceability
+Penerbitan sertifikat digital/QR premium untuk produk bernilai tinggi
+(organik, ekspor)
+Petani/UMKM yang
+ingin sertifikasi
+Langganan B2B
+Dashboard analitik, prioritas kontrak, forecasting permintaan
+Buyer B2B besar
+Featured listing
+Slot promosi produk unggulan (opsional)
+Petani/UMKM
+Komisi mitra ritel/ekspor
+Dari kemitraan distribusi ke jaringan ritel atau eksportir
+Mitra ritel/eksportir
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 18
+8. Roadmap Pengembangan
+Fase
+Fokus
+Target
+Durasi
+MVP
+1 komoditas, 1 wilayah, marketplace + agregasi
+manual
+500-1.000 petani, validasi unit
+ekonomi
+3-6 bulan
+Pilot
+Harga transparan, traceability QR dasar, agen
+lapangan terlatih
+3.000-5.000 petani, 1-2 wilayah
+baru
+6-12 bulan
+Growth
+Multi-komoditas, kontrak B2B berulang, optimasi rute
+otomatis, sertifikasi mitra
+20.000+ petani, beberapa
+provinsi
+12-24 bulan
+Scale
+AI grading, prediksi permintaan, ekspansi ekspor,
+integrasi ritel modern
+Skala nasional
+24 bulan+
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 19
+9. Matriks Risiko & Mitigasi
+Risiko
+Mitigasi
+Kualitas produk tidak konsisten
+QC/grading terstandar + traceability yang membuat setiap batch bisa
+dilacak sumbernya
+Kerusakan/food loss selama distribusi
+Cold chain monitoring, rute optimal, gudang dengan kapasitas real-time
+Rendahnya literasi digital petani
+Kanal WhatsApp/SMS + agen lapangan setara dengan aplikasi
+Gangguan logistik di daerah terpencil
+Titik agregasi desa, kemitraan armada multi-moda (motor, truk, kapal)
+Ketidakpercayaan buyer terhadap keaslian produk
+Traceability QR + sertifikasi pihak ketiga yang terverifikasi
+Persaingan dari pemain besar (TaniHub, Eratani)
+Diferensiasi lewat traceability granular + fokus wilayah/komoditas spesifik
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 20
+10. Struktur Tim yang Dibutuhkan
+•
+Tim lapangan — agen desa, penyuluh, koordinator wilayah
+•
+Tim operasional gudang & armada — termasuk perencana rute
+•
+Tim produk & engineering — platform, integrasi QR/traceability
+•
+Tim quality assurance — standar grading, audit sertifikasi
+•
+Tim data science — forecasting permintaan, optimasi rute
+•
+Tim partnership — ekspedisi, pemerintah, lembaga sertifikasi, ritel/ekspor
+•
+Tim customer success B2B — retensi buyer besar
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 21
+11. Ringkasan Aktor & Use Case
+Aktor
+Use Case Utama
+Petani/UMKM
+Daftar, catat produksi, jual panen, lihat harga referensi
+Buyer B2C
+Cari produk, checkout, scan QR traceability, lacak pengiriman
+Buyer B2B
+Buat kontrak berulang, kelola invoice, pantau kualitas & jejak pasokan
+Agen lapangan
+Onboarding offline, edukasi, sinkronisasi data
+Admin/Ops
+Monitoring gudang & armada, QC, resolusi sengketa, dashboard KPI
+Mitra logistik
+Terima order, update status pengiriman real-time
+Lembaga sertifikasi
+Verifikasi & terbitkan sertifikat digital produk
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 22
+12. Kesesuaian dengan Kriteria Penilaian Lomba
+Kriteria dari Brief Lomba
+Bagaimana Blueprint Ini Menjawabnya
+Performa baik
+Arsitektur API-first, sinkronisasi stok real-time, offline-first untuk agen lapangan
+Tampilan menarik & UX optimal
+Multi-channel disesuaikan profil pengguna: aplikasi modern untuk buyer, WhatsApp
+sederhana untuk petani
+Kemudahan, kenyamanan, manfaat
+Harga transparan, traceability, agregasi titik desa memangkas biaya & waktu
+Solusi kreatif & inovatif
+Traceability QR end-to-end — belum jadi fitur utama di TaniHub/Eratani
+Relevan kebutuhan masyarakat &
+masa depan
+Menjawab langsung masalah tengkulak dan harga adil — inti literal Subtema 3
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 23
+13. Kepatuhan terhadap Subtema 3
+Aturan lomba menetapkan bahwa satu platform hanya boleh mengambil satu subtema, tidak boleh
+mencampur. Bagian ini menjadi bukti eksplisit bahwa blueprint Jejak Tani 100% berada pada jalur Subtema
+3: Rural Commerce & Supply Chain.
+13.1 Definisi Subtema 3 (dari Brief Lomba)
+“Pengembangan platform web jual-beli (marketplace B2B/B2C) atau manajemen rantai pasok yang berfokus
+mendigitalisasi pelaku UMKM, petani, peternak, atau pengrajin di daerah pelosok. Solusi yang dibangun harus
+mampu memotong jalur distribusi tengkulak agar produsen lokal bisa terhubung langsung ke pasar yang lebih luas
+dengan harga yang adil.”
+13.2 Fitur yang Termasuk (Sesuai Subtema 3)
+•
+Marketplace B2B & B2C untuk jual-beli hasil produksi
+•
+Manajemen gudang, armada, dan optimasi rute pengiriman
+•
+Traceability rantai pasok berbasis QR code
+•
+Mesin harga referensi pasar untuk transparansi
+•
+Trust & reputasi antar pelaku transaksi
+•
+Onboarding dan CRM petani/UMKM, termasuk kanal non-smartphone
+13.3 Fitur yang Sengaja Dihindari (Domain Subtema 2)
+•
+Pinjaman/kredit ke petani (P2P lending, KUR sebagai fitur inti)
+•
+Skema bagi hasil investor atau crowdfunding modal
+•
+Dompet digital/e-wallet internal sebagai produk keuangan mandiri
+•
+Fitur tabungan/investasi untuk petani
+•
+Resi gudang sebagai instrumen agunan pinjaman
+13.4 Catatan tentang Pembayaran dalam Transaksi
+Fitur checkout, invoice, dan termin tempo pembayaran B2B yang muncul di Bagian 4 dan 5 adalah bagian
+tidak terpisahkan dari transaksi jual-beli itu sendiri (accounts receivable standar dalam perdagangan), bukan
+produk pengelolaan keuangan mandiri. Ini berbeda dari fitur crowdfunding atau pinjaman yang menjadi
+domain Subtema 2.
+
+---PAGE BREAK---
+Jejak Tani — Blueprint Perancangan Platform
+Subtema 3: Rural Commerce & Supply Chain
+Halaman 24
+14. Penutup
+Blueprint ini menyajikan rancangan platform Jejak Tani secara menyeluruh: identitas brand, arsitektur tiga
+lapis, enam modul fitur inti, lima alur pengguna, skema data, model bisnis, roadmap, matriks risiko, struktur
+tim, hingga kesesuaiannya dengan kriteria penilaian lomba dan batasan Subtema 3. Diferensiasi utama
+platform ini terletak pada traceability rantai pasok berbasis QR — fitur yang menjawab langsung masalah
+transparansi dan kepercayaan yang selama ini dieksploitasi oleh rantai tengkulak berlapis, sekaligus menjadi
+nilai jual yang belum ditonjolkan oleh kompetitor eksisting seperti TaniHub maupun Eratani.
+
+---PAGE BREAK---
