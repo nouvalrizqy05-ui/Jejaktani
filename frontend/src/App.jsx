@@ -23,6 +23,7 @@ import RuteOptimasi from './pages/RuteOptimasi.jsx';
 import Preorder from './pages/Preorder.jsx';
 import ColdChain from './pages/ColdChain.jsx';
 import Favorit from './pages/Favorit.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 export default function App() {
   const location = useLocation();
@@ -30,6 +31,7 @@ export default function App() {
 
   return (
     <div className={`min-h-screen bg-white md:bg-stone-100 selection:bg-teal-200 selection:text-teal-900 flex flex-col ${isOnboarding ? '!bg-transparent' : ''}`}>
+      <ScrollToTop />
       {!isOnboarding && <Navbar />}
       
       <main className={isOnboarding ? "flex-1 w-full" : "flex-1 w-full pt-14 md:pt-16 pb-20 md:pb-8 bg-white min-h-screen"}>
